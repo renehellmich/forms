@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Level-2_3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Register form</legend>
+            <section style="display: flex; flex-direction: column;" class="sc__over">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="" id="in__name" placeholder="Name">
+                </div>
+                <div>
+                    <label for="surname">Surname</label>
+                    <input type="text" name="" id="in__name" placeholder="Surname">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" name="" id="in__name" placeholder="Email">
+                </div>
+                <div>
+                    <label for="Gender">Gender</label>
+                    <label for="radioMale">Male</label>
+                    <input type="radio" name="gender" id="radioMale">
+                    <label for="radioMale">Female</label>
+                    <input type="radio" name="gender" id="radioFemale">
+                </div>
+                <div>
+                    <label for="picture">Picture</label>
+                    <input type="file" name="" id="in__filePicture">
+                </div>
+                <div>
+                    <label for="country">Country</label>
+                    <select name="" id="">
+                        <option value="GER">Germany</option>
+                        <option value="FR">France</option>
+                        <option value="USA">USA</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="PrefLg">Preferred Language</label>
+                    <select name="prefLag" id="" size="4" multiple>
+                        <option value="HTML">HTML</option>
+                        <option value="Css">CSS</option>
+                        <option value="JS">JS</option>
+                        <option value="React">React</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Fld_activity">Fieled of activity</label>
+                    <input type="checkbox" name="checkboxIT" id="checkboxIT">
+                    <label for="checkboxIT">IT</label>
+                    <input type="checkbox" name="checkboxDesign" id="checkboxDesign">
+                    <label for="checkboxDesign">Design</label>
+                    <input type="checkbox" name="checkboxOther" id="checkboxOther">
+                    <label for="checkboxOther">Other</label>
+                </div>
+                <div>
+                    <input type="button" value="send">
+                    <input type="button" value="cancel">
+                </div>
+            </section>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
