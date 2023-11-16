@@ -15,6 +15,10 @@
     text-align: var(--text-align-global);
 } */
 
+form {
+    width: var(--fieldset-width);
+}
+
 fieldset{
     border:none;
     max-width: --fieldset-width;
@@ -23,6 +27,10 @@ fieldset{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+div{
+    width: var(--fieldset-width);
 }
 
 h2 {
@@ -41,8 +49,23 @@ h2::after {
     width: var(--fieldset-width);
 }
 
+.sc__name div {
+    display: flex;
+    width: var(--fieldset-width);
+    gap: 5px;
+}
+
+.sc__name div input {
+    flex: 1; 
+    /* ! Der Platz wird gleichmäßig verteilt! */
+}
+
 input[type="submit"] {
-    width: 500px;
+    width: var(--fieldset-width);
     color: white;
     background-color: rgb(8, 161, 161);
 }
+input[type="submit"]:hover{
+    background-color: blueviolet;
+}
+
