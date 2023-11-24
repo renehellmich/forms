@@ -9,6 +9,10 @@ fieldset {
     padding: 10px;
 }
 
-label {
-    text-indent: 2em;
+#div__normal {
+    width: 300px;
+}
+
+#sc__language {
+    width: 300px;
 }
